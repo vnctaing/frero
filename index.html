@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frero.org</title>
+  <style>
+    body { margin: 0; }
+    main {
+      min-height: 100vh;
+      box-sizing: border-box;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+    img { width: min(100%, 900px); height: auto; border-radius: 4px; }
+    h2 { margin: 0; text-align: center; font-size: clamp(1.1rem, 4vw, 1.75rem); text-wrap: balance; }
+  </style>
 </head>
 <body>
   <!-- salut à toi le frero qui a pris la peine d'ouvrir la devtool -->
-  <div style="display: flex; align-items: center; justify-content:center; flex-direction: column; height: 100vh" >
-    <img src="frero.jpg" width="600px"></img>
-    <h2 >Thomas c'est le frero de l'année ❤️</h2>
-  </div>
+  <main>
+    <img src="frero.jpg" alt="Les frero">
+    <h2>Issam, Neil, Jocelyn, Paul, Thomas c’est les frero de l’année</h2>
+  </main>
 </body>
 </html>
